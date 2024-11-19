@@ -13,14 +13,15 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    padding: 20px; /* Add padding for smaller screens */
 }
 
 .main-container {
     background: linear-gradient(135deg, #6a9c78, #2e2e2e);
     border-radius: 15px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
-    padding: 40px 50px;
-    width: 600px;
+    padding: 30px 40px; /* Reduced padding for smaller screens */
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,8 +30,8 @@ body {
 
 .main-container h1 {
     color: #fff;
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 24px; /* Reduced size for smaller screens */
+    margin-bottom: 15px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -42,6 +43,7 @@ body {
     border: 5px solid white;
     border-radius: 10px;
     object-fit: cover;
+    max-width: 100%; /* Ensure image scales down on smaller screens */
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -65,11 +67,11 @@ body {
 
 .main-container input {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: none;
     border-radius: 6px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 14px; /* Reduced size for smaller screens */
     outline: none;
     background: #555;
     color: #fff;
@@ -90,8 +92,8 @@ body {
 .main-container .button {
     width: 100%;
     padding: 12px 15px;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 15px; /* Reduced margin for smaller screens */
+    font-size: 14px; /* Reduced size for smaller screens */
     font-weight: bold;
     border: none;
     border-radius: 6px;
@@ -124,9 +126,9 @@ body {
 }
 
 .main-container p {
-    font-size: 13px;
+    font-size: 12px; /* Reduced size for smaller screens */
     color: #ccc;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .main-container a {
@@ -154,5 +156,60 @@ body {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .main-container {
+        padding: 25px 20px; /* Reduce padding */
+        width: 95vw;
+    }
+
+    .main-container h1 {
+        font-size: 22px; /* Smaller heading */
+    }
+
+    .main-container input,
+    .main-container .button {
+        font-size: 13px; /* Reduce text size */
+        padding: 10px;
+    }
+
+    .main-container img {
+        max-width: 80%; /* Shrink image on smaller screens */
+    }
+
+    .main-container p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-container {
+        padding: 20px 15px; /* Further reduce padding */
+        width: 95vw;
+    }
+
+    .main-container h1 {
+        font-size: 20px; /* Even smaller heading */
+    }
+
+    .main-container input,
+    .main-container .button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .main-container img {
+        max-width: 100%; /* Ensure full width for images */
+    }
+
+    .main-container p {
+        font-size: 10px;
     }
 }
