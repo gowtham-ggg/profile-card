@@ -5,3 +5,6 @@ QR code gen : https://qrcodegenerator2024.netlify.app
 Simple Profile Card : https://simpleprofilecard2024.netlify.app
 
 BMI Calculator : https://bmicalculator2024.netlify.app/
+
+
+CurrencyConvertor : https://currencyconvertor2024.netlify.app/
