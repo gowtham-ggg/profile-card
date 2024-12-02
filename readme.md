@@ -12,3 +12,5 @@
 6.Random Password : https://7.randompasswordgeneratorbygg.netlify.app/
 
 7.Digital Clock : https://digitalclockbygg.netlify.app/
+
+8. FAQ - https://reactinterviewfaq.netlify.app/
