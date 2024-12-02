@@ -8,3 +8,5 @@ BMI Calculator : https://bmicalculator2024.netlify.app/
 
 
 Currency Convertor : https://currencyconvertor2024.netlify.app/
+
+Random Password : https://randompasswordgeneratorbygg.netlify.app/
