@@ -76,7 +76,7 @@ export const projectsData = [
 export const testimonialsData = [
   {
     name: "Ajith Kumar",
-    title: "F1 Racer",
+    title: "F2 Racer",
     image: profile_img_1,
     alt: "Portrait of Ajith Kumar",
     rating: 5,
