@@ -34,68 +34,69 @@ export const assets = {
 }
 
 export const projectsData = [
-    {
-      title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
-      image: project_img_1
-    },
-    {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_2
-    },
-    {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_3
-    },
-    {
-      title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
-      image: project_img_4
-    },
-    {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_5
-    },
-    {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_6
-    },
-    
-  ];
-
-  export const testimonialsData = [
-    {
-        name: "Donald Jackman",
-        title: "Marketing Manager",
-        image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
-        rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-    },
-    {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
-        image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
-        rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-    },
-    {
-        name: "James Washington",
-        title: "Co-Founder",
-        image: profile_img_3,
-        alt: "Portrait of James Washington",
-        rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-    }
+  {
+    title: "Skyline Residency",
+    price: "₹1,99,99,999",
+    location: "Chennai",
+    image: project_img_1,
+  },
+  {
+    title: "Green Meadows",
+    price: "₹1,08,50,999",
+    location: "Covai",
+    image: project_img_2,
+  },
+  {
+    title: "Tranquil Heights",
+    price: "₹1,11,50,999",
+    location: "Trichy",
+    image: project_img_3,
+  },
+  {
+    title: "Central Avenue",
+    price: "₹1,55,50,999",
+    location: "Ramnad",
+    image: project_img_4,
+  },
+  {
+    title: "Royal Greens",
+    price: "₹1,51,50,999",
+    location: "Chennai",
+    image: project_img_5,
+  },
+  {
+    title: "Serene Enclave",
+    price: "₹2,89,50,999",
+    location: "Bengaluru",
+    image: project_img_6,
+  },
 ];
+
+
+export const testimonialsData = [
+  {
+    name: "Ajith Kumar",
+    title: "F1 Racer",
+    image: profile_img_1,
+    alt: "Portrait of Ajith Kumar",
+    rating: 5,
+    text: "From the very first interaction, they understood my needs and helped me find the perfect property. Their attention to detail and commitment to excellence is unparalleled, just like in racing!"
+  },
+  {
+    name: "Trisha Krishnan",
+    title: "Actress",
+    image: profile_img_2,
+    alt: "Portrait of Trisha Krishnan",
+    rating: 4,
+    text: "The team has been incredibly professional and responsive throughout the process. They delivered exactly what I envisioned, and I couldn't be happier with the outcome. A fantastic experience!"
+  },
+  {
+    name: "Vijay",
+    title: "Politician",
+    image: profile_img_3,
+    alt: "Portrait of Vijay",
+    rating: 5,
+    text: "Their approach to real estate is exceptional. From site visits to the final handover, they made sure everything went smoothly. Truly a reliable and trustworthy team in every way."
+  }
+];
+
